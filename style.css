@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+
+.col1, .col2{
+	width:50%;
+}
+
+.row{
+	display:flex;
+	flex-wrap:no wrap;
+	margin:50px;
+}
+
+.col1 h1{
+	font-size:36px;
+	line-height:50px;
+	margin-bottom:25px;
+}
+
+.col1 p{
+	font-size:25px;
+	font-weight:bold;
+	line-height:40px;
+}
+
+.col2{
+	font-size:20px;
+}
+
+ul{
+	list-style:outside url("images/image.svg");
+	margin:20px 0 20px 20px;
+	line-height:35px;
+}
+
+.italic-para{
+	font-style:italic;
+}
+
